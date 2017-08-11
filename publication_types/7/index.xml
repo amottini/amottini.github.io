@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 on Alejandro Mottini</title>
+    <link>https://amottini.github.io/publication_types/7/</link>
+    <description>Recent content in 7 on Alejandro Mottini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <lastBuildDate>Tue, 30 Sep 2014 10:28:06 +0100</lastBuildDate>
+    <atom:link href="/publication_types/7/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Axonal Morphology Analysis: From Image Processing to Modeling</title>
+      <link>https://amottini.github.io/publication/thesis-2014/</link>
+      <pubDate>Tue, 30 Sep 2014 10:28:06 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/thesis-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

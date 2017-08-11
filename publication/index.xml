@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Alejandro Mottini</title>
+    <link>https://amottini.github.io/publication/</link>
+    <description>Recent content in Publications on Alejandro Mottini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Choice Model Using Pointer Networks for Airline Itinerary Prediction</title>
+      <link>https://amottini.github.io/publication/dcm_pointernet_2017/</link>
+      <pubDate>Sun, 13 Aug 2017 10:22:06 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/dcm_pointernet_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relative Label Encoding for the Prediction of Airline Passenger Nationality</title>
+      <link>https://amottini.github.io/publication/relative-labelenc-2016/</link>
+      <pubDate>Mon, 12 Dec 2016 10:22:06 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/relative-labelenc-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Curves to Trees : A Tree-like Shapes Distance Using the Elastic Shape Analysis Framework</title>
+      <link>https://amottini.github.io/publication/from-curves2trees-2015/</link>
+      <pubDate>Sun, 31 May 2015 10:20:45 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/from-curves2trees-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axonal Morphology Analysis: From Image Processing to Modeling</title>
+      <link>https://amottini.github.io/publication/thesis-2014/</link>
+      <pubDate>Tue, 30 Sep 2014 10:28:06 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/thesis-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Stochastic Model for the Generation of Axonal Trees</title>
+      <link>https://amottini.github.io/publication/discrete-stochasticmodel-2014/</link>
+      <pubDate>Tue, 26 Aug 2014 10:20:10 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/discrete-stochasticmodel-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axonal Tree Classification Using an Elastic Shape Analysis Based Distance</title>
+      <link>https://amottini.github.io/publication/axonal-treeclassification-2014/</link>
+      <pubDate>Tue, 29 Apr 2014 10:19:47 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/axonal-treeclassification-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree-like Shapes Distance Using the Elastic Shape Analysis Framework</title>
+      <link>https://amottini.github.io/publication/tree-likeshapes-2013/</link>
+      <pubDate>Mon, 09 Sep 2013 09:37:26 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/tree-likeshapes-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axon Extraction from Fluorescent Confocal Microscopy Images</title>
+      <link>https://amottini.github.io/publication/axon-extraction-2012/</link>
+      <pubDate>Wed, 02 May 2012 09:36:50 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/axon-extraction-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrated Software for the Detection of Epileptogenic Zones in Refractory Epilepsy</title>
+      <link>https://amottini.github.io/publication/integrated-software-2010/</link>
+      <pubDate>Tue, 31 Aug 2010 09:35:34 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/integrated-software-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localization of epiloptogenic zones in SPECT images using an A-Contrario based algorithm</title>
+      <link>https://amottini.github.io/publication/localization-zones-2010/</link>
+      <pubDate>Thu, 27 May 2010 09:34:41 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/localization-zones-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
