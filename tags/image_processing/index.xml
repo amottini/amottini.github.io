@@ -6,9 +6,11 @@
     <description>Recent content in Image_processing on Alejandro Mottini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <copyright>&amp;copy; 2018 Alejandro Mottini</copyright>
     <lastBuildDate>Mon, 27 Jan 2014 10:32:33 +0100</lastBuildDate>
-    <atom:link href="/tags/image_processing/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amottini.github.io/tags/image_processing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Axonal Tree Classification Using an Elastic Shape Analysis Based Distance</title>
@@ -16,71 +18,7 @@
       <pubDate>Mon, 27 Jan 2014 10:32:33 +0100</pubDate>
       
       <guid>https://amottini.github.io/project/axonal-treeclassification-2014/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-The analysis of the morphological differences between normal and
-pathological neuronal structures is of paramount importance. Some
-methods for the comparison of axonal trees only take into account
-topological information (such as TED), while others also include
-geometrical information (such as Path2Path). In a previous work, we have
-presented a new method for comparing tree-like shapes based on the
-Elastic Shape Analysis Framework (ESA). In this paper, we extend this
-method by computing the mean shape of a population. Moreover, we propose
-to evaluate and compare these 3 approaches (TED, Path2Path and ESA) with
-a classification scheme based on feature computation and K-means.
-We evaluate these approaches on a database of 44 real 3D
-confocal microscopy images of two populations of neurons. Results show
-that the proposed method distinguishes better between the two
-populations.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/mean_shape_procedure.jpg&#34; alt=&#34;mean shape procedure&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Calculation of mean shape of a set of tree shapes.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;div class=&#34;main_block&#34;&gt;
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/normal/MAX_3.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;normal1&#34;&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/normal/MAX_5.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;normal2&#34;&gt;
-    &lt;/div&gt;    
-    
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/normal/MAX_6.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;normal3&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-
-&lt;div class=&#34;main_block&#34;&gt;
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/mutant/MAX_47.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;mutant1&#34;&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/mutant/MAX_imp7_1GFP.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;mutant2&#34;&gt;
-    &lt;/div&gt;    
-    
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/mutant/MAX_imp7_1GFP.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;mutant3&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-
-&lt;figcaption&gt;
-        &lt;h4&gt;Examples of axonal trees from the normal (top) and mutant
-(bottom)populations (2D projections).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/mean_shapes.jpg&#34; alt=&#34;mean shape&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Mean normal (left) and mutant (right) axonal trees (2D projections).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
+      <description>The analysis of the morphological differences between normal and pathological neuronal structures is of paramount importance. Some methods for the comparison of axonal trees only take into account topological information (such as TED), while others also include geometrical information (such as Path2Path). In a previous work, we have presented a new method for comparing tree-like shapes based on the Elastic Shape Analysis Framework (ESA). In this paper, we extend this method by computing the mean shape of a population.</description>
     </item>
     
     <item>
@@ -89,73 +27,7 @@ populations.&lt;/p&gt;
       <pubDate>Mon, 27 Jan 2014 10:32:14 +0100</pubDate>
       
       <guid>https://amottini.github.io/project/discrete-stochasticmodel-2014/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-In this
-work we propose a 2D discrete stochastic
-model for the simulation of axonal biogenesis. The model is
-defined by a third order Markov Chain. The model considers
-two main processes: the growth process that models the elongation
-and shape of the neurites and the bifurcation process that
-models the generation of branches. The growth process depends,
-among other variables, on the external attraction field generated
-by a chemo attractant molecule secreted by the target area. We
-propose an estimation scheme of the involved parameters from
-real fluorescent confocal microscopy images of single neurons
-within intact adult Drosophila fly brains. Both normal neurons
-and neurons in which certain genes were inactivated have been
-considered (two mutations). In total, 53 images (18 normal, 21
-type 1 mutant and 14 type 2 mutant) were used. The model
-parameters allow us to describe pathological characteristics of
-the mutated populations.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div class=&#34;main_block&#34;&gt;
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/normal28_chica_mod2.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;normal1&#34;&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/7_mod.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;normal2&#34;&gt;
-    &lt;/div&gt;    
-        
-&lt;/div&gt;
-
-&lt;div class=&#34;main_block&#34;&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/mutant3_swc_mod2.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;mutant2&#34;&gt;
-    &lt;/div&gt;    
-    
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/untitled_mod.jpg&#34; style=&#34;width: 200px; height: 200px;&#34; alt=&#34;mutant3&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-
-&lt;figcaption&gt;
-        &lt;h4&gt;Real normal and mutant type 1 axonal trees (left top and bottom
-respectively) and synthetic trees (right, top and
-bottom) generated using the estimated parameters.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;div class=&#34;main_block&#34;&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/Norm_normal_scale.jpg&#34; style=&#34;width: 400px; height: 400px;&#34; alt=&#34;mutant2&#34;&gt;
-    &lt;/div&gt;    
-    
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/Field_normal.jpg&#34; style=&#34;width: 400px; height: 400px;&#34; alt=&#34;mutant3&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-
-&lt;figcaption&gt;
-        &lt;h4&gt;Norm (left) and direction (right) of the estimated attraction field for
-the normal population.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
+      <description>In this work we propose a 2D discrete stochastic model for the simulation of axonal biogenesis. The model is defined by a third order Markov Chain. The model considers two main processes: the growth process that models the elongation and shape of the neurites and the bifurcation process that models the generation of branches. The growth process depends, among other variables, on the external attraction field generated by a chemo attractant molecule secreted by the target area.</description>
     </item>
     
     <item>
@@ -164,46 +36,7 @@ the normal population.&lt;/h4&gt;
       <pubDate>Fri, 27 Jan 2012 10:32:41 +0100</pubDate>
       
       <guid>https://amottini.github.io/project/axon-extraction-2012/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-The morphological analysis of axonal trees is an important problem in
-neuroscience. The first step for such an analysis is the extraction of
-the axon. Due to the high volume of generated image data and the
-tortuous nature of the axons,manual processing is not feasible.
-Therefore, it is necessary to develop techniques for the automatic
-extraction of the neuronal structures. In this paper we present a new
-approach for the automatic extraction of axons from fluorescent confocal
-microscopy images. It combines algorithms for filament enhancement,
-binarization,skeletonization and gap filling in a pipeline capable of
-extracting the axons. The performance of the proposed method was
-evaluated on real images. Results support the potential use of this
-technique in helping biologists perform automatic extraction of axons
-from fluorescent confocal microscopy images.
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/segmentation_axon.jpg&#34; alt=&#34;segmentation&#34; width=&#34;65%&#34; height=&#34;65%&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Comparison between original image (left), our result (middle) and ground truth (right)
-for two images (maximum intensity projections).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;div class=&#34;main_block&#34;&gt;
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/MAX_normal_1.jpg&#34; alt=&#34;normal axon&#34; style=&#34;width: 350px; height: 350px;&#34;&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/movie_binFIXED.gif&#34; alt=&#34;reconstruction&#34; style=&#34;width: 350px; height: 350px;&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-&lt;figcaption&gt;
-        &lt;h4&gt;Original maximum intensity projection image of a normal axon (left)
-and extracted axon in 3D (right).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
+      <description>The morphological analysis of axonal trees is an important problem in neuroscience. The first step for such an analysis is the extraction of the axon. Due to the high volume of generated image data and the tortuous nature of the axons,manual processing is not feasible. Therefore, it is necessary to develop techniques for the automatic extraction of the neuronal structures. In this paper we present a new approach for the automatic extraction of axons from fluorescent confocal microscopy images.</description>
     </item>
     
     <item>
@@ -212,43 +45,7 @@ and extracted axon in 3D (right).&lt;/h4&gt;
       <pubDate>Tue, 01 Mar 2011 10:32:45 +0100</pubDate>
       
       <guid>https://amottini.github.io/project/detection-tips-2011/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-Live cell two-photon microscopy is an effective tool for the analysis of dynamical
-processes occurring in living samples. This technique,when combined
-with fuorescence, allows the detection of objects of interest in 3D
-space and time.  Due to the high volume of data, the automatic
-analysis of the images is desired. To this end, the Marked Point Process
-(MPP) detection framework was selected. MPP is a probabilistic framework
-which has been successfully applied to the detection of objects in
-different image processing applications. Its main advantages are that
-the number of objects to be detected can be unknown, and that geometric
-constraints on the objects can be easily modeled. As a first
-approximation, we proposed a 3D MPP model of spheres to extract the
-axonal extremities. We define a prior energy designed to penalizes (but
-not forbid) overlaps, and a data energy based on the Bhattacharya
-distance between the distributions. Once the energy function has been
-defined, the issue is to find the configuration U(X) that minimizes it.
-Due to the intricate nature of U(x), usual minimization algorithms
-cannot be applied. Therefore, we have chosen Multiple Births and Deaths
-(MBD). The method was evaluated on a set of real 3D+t images. Although
-results show there is still work to be than in this area, they suggest
-this approach could be appropriate for solving the extraction problem
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/film_axonCORTO.gif&#34; alt=&#34;bi-photon image&#34; width=&#34;35%&#34; height=&#34;35%&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Dynamic 3D+time image sequences of developing neurons.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/evol1b.jpg&#34; alt=&#34;tracking&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Tracking result for four consecutive frames (left to right).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
+      <description>Live cell two-photon microscopy is an effective tool for the analysis of dynamical processes occurring in living samples. This technique,when combined with fuorescence, allows the detection of objects of interest in 3D space and time. Due to the high volume of data, the automatic analysis of the images is desired. To this end, the Marked Point Process (MPP) detection framework was selected. MPP is a probabilistic framework which has been successfully applied to the detection of objects in different image processing applications.</description>
     </item>
     
     <item>
@@ -257,36 +54,7 @@ this approach could be appropriate for solving the extraction problem
       <pubDate>Wed, 27 Jan 2010 10:32:50 +0100</pubDate>
       
       <guid>https://amottini.github.io/project/integrated-software-2010/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-We present an integrated software designed to help nuclear
-medicine physicians in the detection of epileptogenic zones (EZ) by
-means of ictal-interictal SPECT and MR images. This tool was designed to
-be flexible, friendly and efficient. A novel detection method was
-included(A-contrario) along with the classical detection method
-(Subtraction analysis). The software’s performance was evaluated with
-two separate sets of validation studies: visual interpretation of
-12patient images by an experimented observer and objective analysis
-of virtual brain phantom experiments by proposed numerical observers.
-Our results support the potential use of the proposed software to
-help nuclear medicine physicians in the detection of EZ in clinical
-practice.
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/detection_foci.jpg&#34; alt=&#34;detection foci&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Ictal-interictal SPECT and MR images (left) and analysis result (right).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/comparison_acontrario.jpg&#34; alt=&#34;acontrario result&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Results for one of the patients Subtraction analysis (right). The EZ
-in A-contrario detection shows less false activations.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
+      <description>We present an integrated software designed to help nuclear medicine physicians in the detection of epileptogenic zones (EZ) by means of ictal-interictal SPECT and MR images. This tool was designed to be flexible, friendly and efficient. A novel detection method was included(A-contrario) along with the classical detection method (Subtraction analysis). The software’s performance was evaluated with two separate sets of validation studies: visual interpretation of 12patient images by an experimented observer and objective analysis of virtual brain phantom experiments by proposed numerical observers.</description>
     </item>
     
   </channel>

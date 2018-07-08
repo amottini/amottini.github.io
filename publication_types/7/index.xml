@@ -6,9 +6,11 @@
     <description>Recent content in 7 on Alejandro Mottini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <copyright>&amp;copy; 2018 Alejandro Mottini</copyright>
     <lastBuildDate>Tue, 30 Sep 2014 10:28:06 +0100</lastBuildDate>
-    <atom:link href="/publication_types/7/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amottini.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Axonal Morphology Analysis: From Image Processing to Modeling</title>

@@ -6,9 +6,67 @@
     <description>Recent content in Homes on Alejandro Mottini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <copyright>&amp;copy; 2018 Alejandro Mottini</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amottini.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://amottini.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/about/</guid>
+      <description>About Me I&amp;rsquo;m an Applied Scientist in Amazon Alexa, where I participate in the development, evaluation and deployment of machine learning models and analytical solutions with an emphasis in personalizing the Alexa experience. The team&amp;rsquo;s end goal is to deliver an instantly familiar personal assistant for our customers through the application of cutting-edge scientific techniques
+I was previously a Data Scientist at the Innovation and Research Team in the Amadeus IT Group .</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://amottini.github.io/home/experience/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/experience/</guid>
+      <description>Past professional and research experience:
+ Applied Scientist, Amazon, Alexa Personalization, Seattle, USA Data Scientist, Amadeus IT Group, Innovation and Research Division, France Teaching Assistant, Dept. of Informatics, University of Nice Sophia Antipolis, France Research Internship, Ariana Research Team, INRIA, France Integration Engineer, Ericsson, Uruguay Research Assistant, Dept. of Signal Processing, Universidad de la Republica, Uruguay Data Analysis Internship, Telefonica, Uruguay.  </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://amottini.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patents</title>
+      <link>https://amottini.github.io/home/patents/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/patents/</guid>
+      <description>R. Acuna-Agost, A. Lheritier, A. Mottini, D. Renaudie. Systems and Methods for Real-Time Online Traveler Segmentation Using Machine Learning, U.S. Patent Application 15/ 704.428, Filed Sep. 2017, Patent Pending R. Acuna-Agost, A. Mottini, D. Renaudie. Machine Learning Methods and Systems for Predicting Online User Interactions, U.S. Patent Application 15/ 704.320, Filed Sep. 2017, Patent Pending R. Acuna-Agost, A. Mottini, D. Renaudie. Methods and Systems for Intelligent Adaptive Bidding in an Automated Online Exchange Network, U.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://amottini.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://amottini.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amottini.github.io/home/contact/</guid>
+      <description>   </description>
+    </item>
     
   </channel>
 </rss>

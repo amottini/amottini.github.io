@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://amottini.github.io/publication/gans_2018/</loc>
+      <lastmod>2017-08-13T10:22:06+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://amottini.github.io/publication/dcm_pointernet_2017/</loc>
       <lastmod>2017-08-13T10:22:06+01:00</lastmod>
     </url>
@@ -12,7 +20,7 @@
     
     
     <url>
-      <loc>https://amottini.github.io/project/deep_choicemodel-2017/</loc>
+      <loc>https://amottini.github.io/project/gans_2018/</loc>
       <lastmod>2017-02-15T10:32:45+01:00</lastmod>
     </url>
     
@@ -20,8 +28,8 @@
     
     
     <url>
-      <loc>https://amottini.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <loc>https://amottini.github.io/project/deep_choicemodel-2017/</loc>
+      <lastmod>2017-02-15T10:32:45+01:00</lastmod>
     </url>
     
   
@@ -246,6 +254,15 @@
     
     <url>
       <loc>https://amottini.github.io/publication_types/</loc>
+      <lastmod>2017-08-13T10:22:06+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://amottini.github.io/publication/</loc>
       <lastmod>2017-08-13T10:22:06+01:00</lastmod>
       <priority>0</priority>
     </url>

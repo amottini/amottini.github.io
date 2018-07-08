@@ -6,9 +6,18 @@
     <description>Recent content in Alejandro Mottini on Alejandro Mottini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Alejandro Mottini</copyright>
+    <copyright>&amp;copy; 2018 Alejandro Mottini</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Airline Passenger Name Record Generation using Generative Adversarial Networks</title>
+      <link>https://amottini.github.io/publication/gans_2018/</link>
+      <pubDate>Sun, 13 Aug 2017 10:22:06 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/publication/gans_2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Choice Model Using Pointer Networks for Airline Itinerary Prediction</title>
@@ -17,6 +26,40 @@
       
       <guid>https://amottini.github.io/publication/dcm_pointernet_2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Airline Passenger Name Record Generation using Generative Adversarial Networks</title>
+      <link>https://amottini.github.io/project/gans_2018/</link>
+      <pubDate>Wed, 15 Feb 2017 10:32:45 +0100</pubDate>
+      
+      <guid>https://amottini.github.io/project/gans_2018/</guid>
+      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
+Passenger Name Records (PNRs) are at the heart of the travel industry. Created when an itinerary is booked, they contain travel and passenger information. It is usual for airlines and other actors in the industry to inter-exchange and access each other’s PNR, creating the challenge of using them without infringing data ownership laws. To address this difficulty, we propose a method to generate realistic synthetic PNRs using Generative Adversarial Networks (GANs). Unlike other GAN applications, PNRs consist of categorical and numerical features with missing/NaN values, which makes the use of GANs challenging. We propose a solution based on Cramer GANs, categorical feature embedding and a Cross-Net architecture. The method was tested on a real PNR dataset, and evaluated in terms of distribution matching, memorization, and performance of predictive models for two real business problems: client segmentation and passenger nationality prediction. Results show that the generated data matches well with the real PNRs without memorizing them, and that it can be used to train models for real business applications.
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://amottini.github.io/img/gan_architecture1.jpg&#34; alt=&#34;Network architecture&#34; width=&#34;566&#34; height=&#34;362&#34;&gt;
+    &lt;figcaption&gt;
+        &lt;h4&gt;Network architecture.&lt;/h4&gt;
+    &lt;/figcaption&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://amottini.github.io/img/gan_architecture2.jpg&#34; alt=&#34;G and D inputs and outputs&#34; width=&#34;566&#34; height=&#34;362&#34;&gt;
+    &lt;figcaption&gt;
+        &lt;h4&gt;G and D inputs and outputs.&lt;/h4&gt;
+    &lt;/figcaption&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://amottini.github.io/img/gan_result.jpg&#34; alt=&#34;Results&#34; width=&#34;482&#34; height=&#34;696&#34;&gt;
+    &lt;figcaption&gt;
+        &lt;h4&gt;Multidimensional Scaling (MDS) plots at the beginning (a), middle (b) and end (c) of the training process (CrGAN-Cnet). Points’ coordinates are obtained by applying MDS on real and synthetic data transformed by the critic’s h function. Left: real points (blue) and synthetic (red). Right: color intensity represents local discrepancy (contribution to the JSD divergence).&lt;/h4&gt;
+    &lt;/figcaption&gt; 
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -357,99 +400,6 @@ trees(2D projections).&lt;/h4&gt;
       
       <guid>https://amottini.github.io/publication/axon-extraction-2012/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Axon Extraction from Fluorescent Confocal Microscopy Images</title>
-      <link>https://amottini.github.io/project/axon-extraction-2012/</link>
-      <pubDate>Fri, 27 Jan 2012 10:32:41 +0100</pubDate>
-      
-      <guid>https://amottini.github.io/project/axon-extraction-2012/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-The morphological analysis of axonal trees is an important problem in
-neuroscience. The first step for such an analysis is the extraction of
-the axon. Due to the high volume of generated image data and the
-tortuous nature of the axons,manual processing is not feasible.
-Therefore, it is necessary to develop techniques for the automatic
-extraction of the neuronal structures. In this paper we present a new
-approach for the automatic extraction of axons from fluorescent confocal
-microscopy images. It combines algorithms for filament enhancement,
-binarization,skeletonization and gap filling in a pipeline capable of
-extracting the axons. The performance of the proposed method was
-evaluated on real images. Results support the potential use of this
-technique in helping biologists perform automatic extraction of axons
-from fluorescent confocal microscopy images.
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/segmentation_axon.jpg&#34; alt=&#34;segmentation&#34; width=&#34;65%&#34; height=&#34;65%&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Comparison between original image (left), our result (middle) and ground truth (right)
-for two images (maximum intensity projections).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;div class=&#34;main_block&#34;&gt;
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/MAX_normal_1.jpg&#34; alt=&#34;normal axon&#34; style=&#34;width: 350px; height: 350px;&#34;&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;inner_block&#34;&gt;
-        &lt;img src=&#34;https://amottini.github.io/img/movie_binFIXED.gif&#34; alt=&#34;reconstruction&#34; style=&#34;width: 350px; height: 350px;&#34;&gt;
-    &lt;/div&gt;    
-&lt;/div&gt;
-&lt;figcaption&gt;
-        &lt;h4&gt;Original maximum intensity projection image of a normal axon (left)
-and extracted axon in 3D (right).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images</title>
-      <link>https://amottini.github.io/project/detection-tips-2011/</link>
-      <pubDate>Tue, 01 Mar 2011 10:32:45 +0100</pubDate>
-      
-      <guid>https://amottini.github.io/project/detection-tips-2011/</guid>
-      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
-Live cell two-photon microscopy is an effective tool for the analysis of dynamical
-processes occurring in living samples. This technique,when combined
-with fuorescence, allows the detection of objects of interest in 3D
-space and time.  Due to the high volume of data, the automatic
-analysis of the images is desired. To this end, the Marked Point Process
-(MPP) detection framework was selected. MPP is a probabilistic framework
-which has been successfully applied to the detection of objects in
-different image processing applications. Its main advantages are that
-the number of objects to be detected can be unknown, and that geometric
-constraints on the objects can be easily modeled. As a first
-approximation, we proposed a 3D MPP model of spheres to extract the
-axonal extremities. We define a prior energy designed to penalizes (but
-not forbid) overlaps, and a data energy based on the Bhattacharya
-distance between the distributions. Once the energy function has been
-defined, the issue is to find the configuration U(X) that minimizes it.
-Due to the intricate nature of U(x), usual minimization algorithms
-cannot be applied. Therefore, we have chosen Multiple Births and Deaths
-(MBD). The method was evaluated on a set of real 3D+t images. Although
-results show there is still work to be than in this area, they suggest
-this approach could be appropriate for solving the extraction problem
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/film_axonCORTO.gif&#34; alt=&#34;bi-photon image&#34; width=&#34;35%&#34; height=&#34;35%&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Dynamic 3D+time image sequences of developing neurons.&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;https://amottini.github.io/img/evol1b.jpg&#34; alt=&#34;tracking&#34;&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Tracking result for four consecutive frames (left to right).&lt;/h4&gt;
-    &lt;/figcaption&gt; 
-&lt;/figure&gt;
-</description>
     </item>
     
   </channel>
