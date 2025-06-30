@@ -36,11 +36,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amottini.github.io/project/detection-tips-2011/">
+  <link rel="canonical" href="https://amottini.github.io/project/slu_2021/">
 
   
 
-  <title>Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images | Alejandro Mottini</title>
+  <title>Top-down attention in end-to-end spoken language understanding | Alejandro Mottini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,45 +161,33 @@
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
 
-    <h1 itemprop="name">Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images</h1>
+    <h1 itemprop="name">Top-down attention in end-to-end spoken language understanding</h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
       <p style='text-align: justify;'>
-Live cell two-photon microscopy is an effective tool for the analysis of dynamical
-processes occurring in living samples. This technique,when combined
-with fuorescence, allows the detection of objects of interest in 3D
-space and time.  Due to the high volume of data, the automatic
-analysis of the images is desired. To this end, the Marked Point Process
-(MPP) detection framework was selected. MPP is a probabilistic framework
-which has been successfully applied to the detection of objects in
-different image processing applications. Its main advantages are that
-the number of objects to be detected can be unknown, and that geometric
-constraints on the objects can be easily modeled. As a first
-approximation, we proposed a 3D MPP model of spheres to extract the
-axonal extremities. We define a prior energy designed to penalizes (but
-not forbid) overlaps, and a data energy based on the Bhattacharya
-distance between the distributions. Once the energy function has been
-defined, the issue is to find the configuration U(X) that minimizes it.
-Due to the intricate nature of U(x), usual minimization algorithms
-cannot be applied. Therefore, we have chosen Multiple Births and Deaths
-(MBD). The method was evaluated on a set of real 3D+t images. Although
-results show there is still work to be than in this area, they suggest
-this approach could be appropriate for solving the extraction problem
+Spoken language understanding (SLU) is the task of inferring the semantics of spoken utterances. Traditionally, this has been achieved with a cascading combination of Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) modules that are optimized separately, which can lead to a suboptimal overall performance. More recently, End-to-End SLU (E2E SLU) was proposed to perform SLU directly from speech through a joint optimization of the modules, addressing some of the traditional SLU shortcomings. A key challenge of this approach is how to best integrate the feature learning of the ASR and NLU sub-tasks to maximize their performance. While it is known that in general, ASR models focus on low-level features, and NLU models need higher-level contextual information, ASR models can nonetheless also leverage top-down syntactic and semantic information to improve their recognition. Based on this insight, we propose Top-Down SLU (TD-SLU), a new transformer-based E2E SLU model that uses top-down attention and an attention gate to fuse high-level NLU features with low-level ASR features, which leads to a better optimization of both tasks. We have validated our model using the public FluentSpeech set, and a large custom dataset. Results show TD-SLU is able to outperform selected baselines both in terms of ASR and NLU quality metrics, and suggest that the added syntactic and semantic high-level information can improve the model’s performance.
 </p>
 
 <figure>
-    <img src="/img/film_axonCORTO.gif" alt="bi-photon image" width="35%" height="35%">
+    <img src="/img/slu_architecture1.jpg" alt="Network architecture" width="566" height="362">
     <figcaption>
-        <h4>Dynamic 3D+time image sequences of developing neurons.</h4>
+        <h4>Network architecture.</h4>
     </figcaption> 
 </figure>
 
 <figure>
-    <img src="/img/evol1b.jpg" alt="tracking">
+    <img src="/img/slu_attention.jpg" alt="Top-down attention for correcting ASR errors." width="566" height="362">
     <figcaption>
-        <h4>Tracking result for four consecutive frames (left to right).</h4>
+        <h4>Top-down attention for correcting ASR errors..</h4>
+    </figcaption> 
+</figure>
+
+<figure>
+    <img src="/img/slu_results.jpg" alt="Offline results" width="482" height="696">
+    <figcaption>
+        <h4> Offline results on the Fluentspeech dataset.</h4>
     </figcaption> 
 </figure>
 
@@ -209,13 +197,15 @@ this approach could be appropriate for solving the extraction problem
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amottini.github.io/project/integrated-software-2010/"><span
-      aria-hidden="true">&larr;</span> Integrated Software for the Detection of Epileptogenic Zones in Refractory Epilepsy</a></li>
+    <li class="previous"><a href="https://amottini.github.io/project/jokes_2019/"><span
+      aria-hidden="true">&larr;</span> What Do You Mean I'm Funny? Personalizing the Joke Skill of a Voice-Controlled Virtual Assistant</a></li>
     
+<li class="next"><a href="https://amottini.github.io/project/voicy_2021/">Voicy: Zero-shot non-parallel voice conversion in noisy reverberant environments<span
+      aria-hidden="true">&rarr;</span></a></li>
 
     
-    <li class="next"><a href="https://amottini.github.io/project/axon-extraction-2012/">Axon Extraction from Fluorescent Confocal Microscopy Images <span
-      aria-hidden="true">&rarr;</span></a></li>
+
+
     
   </ul>
 </nav>

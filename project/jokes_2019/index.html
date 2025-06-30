@@ -36,11 +36,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amottini.github.io/project/detection-tips-2011/">
+  <link rel="canonical" href="https://amottini.github.io/project/jokes_2019/">
 
   
 
-  <title>Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images | Alejandro Mottini</title>
+  <title>What Do You Mean I'm Funny? Personalizing the Joke Skill of a Voice-Controlled Virtual Assistant | Alejandro Mottini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,45 +161,33 @@
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
 
-    <h1 itemprop="name">Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images</h1>
+    <h1 itemprop="name">What Do You Mean I'm Funny? Personalizing the Joke Skill of a Voice-Controlled Virtual Assistant</h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
       <p style='text-align: justify;'>
-Live cell two-photon microscopy is an effective tool for the analysis of dynamical
-processes occurring in living samples. This technique,when combined
-with fuorescence, allows the detection of objects of interest in 3D
-space and time.  Due to the high volume of data, the automatic
-analysis of the images is desired. To this end, the Marked Point Process
-(MPP) detection framework was selected. MPP is a probabilistic framework
-which has been successfully applied to the detection of objects in
-different image processing applications. Its main advantages are that
-the number of objects to be detected can be unknown, and that geometric
-constraints on the objects can be easily modeled. As a first
-approximation, we proposed a 3D MPP model of spheres to extract the
-axonal extremities. We define a prior energy designed to penalizes (but
-not forbid) overlaps, and a data energy based on the Bhattacharya
-distance between the distributions. Once the energy function has been
-defined, the issue is to find the configuration U(X) that minimizes it.
-Due to the intricate nature of U(x), usual minimization algorithms
-cannot be applied. Therefore, we have chosen Multiple Births and Deaths
-(MBD). The method was evaluated on a set of real 3D+t images. Although
-results show there is still work to be than in this area, they suggest
-this approach could be appropriate for solving the extraction problem
+A considerable part of the success experienced by Voice-controlled virtual assistants (VVA) is due to the emotional and personalized experience they deliver, with humor being a key component in providing an engaging interaction. In this paper we describe methods used to improve the joke skill of a VVA through personalization. The first method, based on traditional NLP techniques, is robust and scalable. The others combine self-attentional network and multi-task learning to obtain better results, at the cost of added complexity. A significant challenge facing these systems is the lack of explicit user feedback needed to provide labels for the models. Instead, we explore the use of two implicit feedback-based labelling strategies. All models were evaluated on real production data. Online results show that models trained on any of the considered labels outperform a heuristic method, presenting a positive real-world impact on user satisfaction. Offline results suggest that the deep-learning approaches can improve the joke experience with respect to the other considered methods.
 </p>
 
 <figure>
-    <img src="/img/film_axonCORTO.gif" alt="bi-photon image" width="35%" height="35%">
+    <img src="/img/jokes_architecture1.jpg" alt="Network architecture" width="566" height="362">
     <figcaption>
-        <h4>Dynamic 3D+time image sequences of developing neurons.</h4>
+        <h4>Network architecture.</h4>
     </figcaption> 
 </figure>
 
 <figure>
-    <img src="/img/evol1b.jpg" alt="tracking">
+    <img src="/img/jokes_labeling.jpg" alt="Labeling strategy" width="566" height="362">
     <figcaption>
-        <h4>Tracking result for four consecutive frames (left to right).</h4>
+        <h4>Example of labelling strategies: five-minute reuse (label 1) and 1-day return (label 2).</h4>
+    </figcaption> 
+</figure>
+
+<figure>
+    <img src="/img/jokes_offline_results.jpg" alt="Offline results" width="482" height="696">
+    <figcaption>
+        <h4> Offline Results: Relative change w.r.t popularity model of AUCROC and Overall Accuracy: transformer model (DL-T), BERT model (DL-BERT), transformer without special context-aware attention (DL-T-noAtt) and without both special attention and modified loss (DL-T-basic), CNN model (DL-CNN) and LR model (LR)..</h4>
     </figcaption> 
 </figure>
 
@@ -209,13 +197,15 @@ this approach could be appropriate for solving the extraction problem
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amottini.github.io/project/integrated-software-2010/"><span
-      aria-hidden="true">&larr;</span> Integrated Software for the Detection of Epileptogenic Zones in Refractory Epilepsy</a></li>
+    <li class="previous"><a href="https://amottini.github.io/project/deep_choicemodel-2017/"><span
+      aria-hidden="true">&larr;</span> Deep Choice Model Using Pointer Networks for Airline Itinerary Prediction</a></li>
     
+<li class="next"><a href="https://amottini.github.io/project/slu_2021/">Top-down attention in end-to-end spoken language understanding<span
+      aria-hidden="true">&rarr;</span></a></li>
 
     
-    <li class="next"><a href="https://amottini.github.io/project/axon-extraction-2012/">Axon Extraction from Fluorescent Confocal Microscopy Images <span
-      aria-hidden="true">&rarr;</span></a></li>
+
+
     
   </ul>
 </nav>

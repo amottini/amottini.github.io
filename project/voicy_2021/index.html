@@ -36,11 +36,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amottini.github.io/project/detection-tips-2011/">
+  <link rel="canonical" href="https://amottini.github.io/project/voicy_2021/">
 
   
 
-  <title>Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images | Alejandro Mottini</title>
+  <title>Voicy: Zero-shot non-parallel voice conversion in noisy reverberant environments | Alejandro Mottini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,45 +161,33 @@
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
 
-    <h1 itemprop="name">Detection and Tracking of Axonal Tips from Bi-Photon Microscopy Images</h1>
+    <h1 itemprop="name">Voicy: Zero-shot non-parallel voice conversion in noisy reverberant environments</h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
       <p style='text-align: justify;'>
-Live cell two-photon microscopy is an effective tool for the analysis of dynamical
-processes occurring in living samples. This technique,when combined
-with fuorescence, allows the detection of objects of interest in 3D
-space and time.  Due to the high volume of data, the automatic
-analysis of the images is desired. To this end, the Marked Point Process
-(MPP) detection framework was selected. MPP is a probabilistic framework
-which has been successfully applied to the detection of objects in
-different image processing applications. Its main advantages are that
-the number of objects to be detected can be unknown, and that geometric
-constraints on the objects can be easily modeled. As a first
-approximation, we proposed a 3D MPP model of spheres to extract the
-axonal extremities. We define a prior energy designed to penalizes (but
-not forbid) overlaps, and a data energy based on the Bhattacharya
-distance between the distributions. Once the energy function has been
-defined, the issue is to find the configuration U(X) that minimizes it.
-Due to the intricate nature of U(x), usual minimization algorithms
-cannot be applied. Therefore, we have chosen Multiple Births and Deaths
-(MBD). The method was evaluated on a set of real 3D+t images. Although
-results show there is still work to be than in this area, they suggest
-this approach could be appropriate for solving the extraction problem
+Voice Conversion (VC) is a technique that aims to transform the non-linguistic information of a source utterance to change the perceived identity of the speaker. While there is a rich literature on VC, most proposed methods are trained and evaluated on clean speech recordings. However, many acoustic environments are noisy and reverberant, severely restricting the applicability of popular VC methods to such scenarios. To address this limitation, we propose Voicy, a new VC framework particularly tailored for noisy speech. Our method, which is inspired by the de-noising auto-encoders framework, is comprised of four encoders (speaker, content, phonetic and acoustic-ASR) and one decoder. Importantly, Voicy is capable of performing non-parallel zero-shot VC, an important requirement for any VC system that needs to work on speakers not seen during training. We have validated our approach using a noisy reverberant version of the LibriSpeech dataset. Experimental results show that Voicy outperforms other tested VC techniques in terms of naturalness and target speaker similarity in noisy reverberant environments.
 </p>
 
 <figure>
-    <img src="/img/film_axonCORTO.gif" alt="bi-photon image" width="35%" height="35%">
+    <img src="/img/voicy_architecture1.jpg" alt="Network architecture" width="566" height="362">
     <figcaption>
-        <h4>Dynamic 3D+time image sequences of developing neurons.</h4>
+        <h4>Network architecture.</h4>
     </figcaption> 
 </figure>
 
 <figure>
-    <img src="/img/evol1b.jpg" alt="tracking">
+    <img src="/img/voicy_loss.jpg" alt="Loss function." width="566" height="362">
     <figcaption>
-        <h4>Tracking result for four consecutive frames (left to right).</h4>
+        <h4>Total loss optimized during training, each component computed using the inputs and outputs of the difference modules.</h4>
+    </figcaption> 
+</figure>
+
+<figure>
+    <img src="/img/voicy_results.jpg" alt="Results" width="482" height="696">
+    <figcaption>
+        <h4> Naturalness (top) and Similarity (bottom) of the systems for noisy reverberant utterances..</h4>
     </figcaption> 
 </figure>
 
@@ -209,13 +197,15 @@ this approach could be appropriate for solving the extraction problem
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amottini.github.io/project/integrated-software-2010/"><span
-      aria-hidden="true">&larr;</span> Integrated Software for the Detection of Epileptogenic Zones in Refractory Epilepsy</a></li>
+    <li class="previous"><a href="https://amottini.github.io/project/slu_2021/"><span
+      aria-hidden="true">&larr;</span>Top-down attention in end-to-end spoken language understanding</a></li>
     
+<li class="next"><a href="https://amottini.github.io/project/graphstorm_2024/">GraphStorm: All-in-one graph machine learning framework for industry applications<span
+      aria-hidden="true">&rarr;</span></a></li>
 
     
-    <li class="next"><a href="https://amottini.github.io/project/axon-extraction-2012/">Axon Extraction from Fluorescent Confocal Microscopy Images <span
-      aria-hidden="true">&rarr;</span></a></li>
+
+
     
   </ul>
 </nav>
