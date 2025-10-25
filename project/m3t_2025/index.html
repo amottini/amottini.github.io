@@ -36,11 +36,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amottini.github.io/project/graphstorm_2024/">
+  <link rel="canonical" href="https://amottini.github.io/project/gril_2025/">
 
   
 
-  <title>GRIL: Knowledge Graph Retrieval-Integrated Learning with Large Language Models | Alejandro Mottini</title>
+  <title>Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework | Alejandro Mottini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,26 +161,25 @@
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
 
-    <h1 itemprop="name">GRIL: Knowledge Graph Retrieval-Integrated Learning with Large Language Models</h1>
+    <h1 itemprop="name">Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework</h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
       <p style='text-align: justify;'>
 
-Retrieval-Augmented Generation (RAG) has significantly mitigated the hallucinations of Large Language Models (LLMs) by grounding the generation with external knowledge. Recent extensions of RAG to graph-based retrieval offer a promising direction, leveraging the structural knowledge for multi-hop reasoning. However, existing graph RAG typically decouples retrieval and reasoning processes, which prevents the retriever from adapting to the reasoning needs of the LLM. They also struggle with scalability when performing multi-hop expansion over large-scale graphs, or depend heavily on annotated ground-truth entities, which are often unavailable in open-domain settings. To address these challenges, we propose a novel graph retriever trained end-to-end with LLM, which features an attention-based growing and pruning mechanism, adaptively navigating multi-hop relevant entities while filtering out noise. Within the extracted subgraph, structural knowledge and semantic features are encoded via soft tokens and the verbalized graph, respectively, which are infused into the LLM together, thereby enhancing its reasoning capability and facilitating interactive joint training of the graph retriever and the LLM reasoner. Experimental results across three QA benchmarks show that our approach consistently achieves state-of-the-art performance, validating the strength of joint graph-LLM optimization for complex reasoning tasks. Notably, our framework eliminates the need for predefined ground-truth entities by directly optimizing the retriever using LLM logits as implicit feedback, making it especially effective in open-domain settings.</p>
-
+We present Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM), a framework that advances vision-language matching and retrieval by leveraging a large language model (LLM) backbone. While concurrent LLM-based approaches like VLM2VEC, MM-Embed, NV-Embed, and MM-GEM have demonstrated impressive capabilities in multi-modal and multi-task scenarios, our work introduces novel mechanisms for task-adaptive learning and embedding extraction that further enhance the potential of LLM-based retrieval systems. Our key technical contribution lies in the development of a task-aware contrastive learning framework with an automated Bayesian weighing mechanism. This approach provides a principled way to balance multiple tasks during training, departing from conventional contrastive learning strategies. We further enhance the framework through a multiple-token summarization strategy and an auxiliary language modeling objective, which together significantly improve retrieval performance. Comprehensive experiments on M-BEIR and ICinW benchmarks demonstrate M3T-UEM's effectiveness, showing competitive or superior performance compared to both traditional encoder-based methods and recent LLM-based approaches. Furthermore, we demonstrate particular strengths in handling compositional conceptual changes and multilingual scenarios owing to the incorporation of an LLM backbone where the method drastically outperforms CLIP in zero-shot settings, often by orders of magnitude.
 <figure>
-    <img src="/img/gril_framework.png" alt="Framework architecture" width="566" height="362">
+    <img src="/img/m3t_framework.png" alt="Framework" width="566" height="362">
     <figcaption>
-        <h4>Framework architecture.</h4>
+        <h4>General framework.</h4>
     </figcaption> 
 </figure>
 
 <figure>
-    <img src="/img/graph_retriver.png" alt="IllustrationofAttention-basedGraphRetriever.." width="566" height="362">
+    <img src="/img/m3t_architecture.png" alt="architecture." width="566" height="362">
     <figcaption>
-        <h4>Illustration of Attention-based Graph Retriever..</h4>
+        <h4>Illustration of model's architecture.</h4>
     </figcaption> 
 </figure>
 
@@ -191,13 +190,10 @@ Retrieval-Augmented Generation (RAG) has significantly mitigated the hallucinati
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amottini.github.io/project/graphstorm_2024/"><span
-      aria-hidden="true">&larr;</span>GraphStorm: All-in-one graph machine learning framework for industry applications</a></li>
+    <li class="previous"><a href="https://amottini.github.io/project/gril_2025/"><span
+      aria-hidden="true">&larr;</span>GRIL: Knowledge Graph Retrieval-Integrated Learning with Large Language Models</a></li>
     
   
-
-<li class="next"><a href="https://amottini.github.io/project/m3t_2025/">Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework<span
-      aria-hidden="true">&rarr;</span></a></li>
 
 
     
